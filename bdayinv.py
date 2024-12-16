@@ -56,7 +56,7 @@ jem = load_ani("https://lottie.host/c72b966f-0321-44fb-bb5b-fd958f952b32/RS50KdB
 st.header("Fatih's BDAY Bash")
 left_column, right_column = st.columns(2)
 with left_column:
-    st.image(cwu, width=900)
+    st.image(Drizzy, width=900)
     st.title("Fatih's Invitation")
 with right_column:
     st_lottie(bday, height=400, key="birth")
