@@ -67,26 +67,16 @@ with st.container():
         st.write("##")
         st.write("---")
         st.header("Information >:)")
-        st.title("Date:")
-        st.write(" Fatih's Birthday, 2024 at 6pm")
+        st.title("Date: 2012 12 16")
+        st.write(" Fatih's Birthday ")
         st_lottie(fire, height=450,key="fiyah")
-        st.title("Itinerary:")
+        st.title("game:")
         st.write("""
-            - Chillaxing
-            - perhaps some zaza
-            - More Chillaxing
-            - Hanging out
-            - Have pizza
-            - Porto's Cheesecake
-            - Music
-            - Poggers
-            - 1V1 SUPER SMASH BROS ULTIMATE TOURNAMENT
-                - Winner gets a prize!!!!
-            - Maybe even a lil boba trip who knows
-            - Go where the night takes us
-            - Enjoy ourselves
-            - Have fun hehehehe
-            """)
+                - Mobile legends
+                - free fire
+                - pokemon go
+                - pokemon unite
+             """)
         st_lottie(kitty, width=400, key="cat")
     with right_column:
         st.image(drizzy,width=500)
